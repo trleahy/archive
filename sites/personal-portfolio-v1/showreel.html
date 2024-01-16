@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1RPXFXEFG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-S1RPXFXEFG');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  <link href="styles/main.3f6952e4.css" rel="stylesheet">
+  <title>003 : Showreel</title>
+</head>
+
+<body class="">
+  <div id="site-border-left"></div>
+  <div id="site-border-right"></div>
+  <div id="site-border-top"></div>
+  <div id="site-border-bottom"></div>
+  <!-- Add your content of header -->
+  <header>
+    <nav class="navbar  navbar-fixed-top navbar-default">
+      <div class="container">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a href="index.html" title="">01 : Home</a></li>
+            <li><a href="works.html" title="">02 : Works</a></li>
+            <li><a class="active" title="">03 : Showreel</a></li>
+            <li><a href="about.html" title="">04 : About me</a></li>
+            <li><a href="contact.html" title="">05 : Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <img src="assets/images/banner-filler.jpg" class="img-responsive" alt="">
+            <div class="card-container">
+              <div class="text-center">
+                <h1 class="h2">003 : Showreel</h1>
+              </div>
+              <div class="text-center">
+                <p>A showcase of some of my best work.</p>
+              </div>
+              <div class="col-xs-12">
+                <div class="col-xs-12" id="ytplayer"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--/footer-->
+  <footer class="footer-container text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p>© Thomas-Rafferty Leahy | Website created with <a href="https://atom.io" target="_blank" title="A hackable text editor for the 21st Century">Atom</a>/<a href="https://www.unsplash.com/" target="_blank" title="Beautiful Free Images">Unsplash</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--/scripts-->
+  <script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '360',
+      width: '640',
+      videoId: 'HnjzDvGlzzI',
+      playerVars: {
+        'playsinline': 1,
+        'controls': 0
+      },
+    });
+  }
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+       navActivePage();
+    });
+  </script>
+  <script type="text/javascript" src="./main.70a66962.js"></script>
+</body>
+
+</html>
