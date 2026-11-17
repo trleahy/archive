@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A collection of past portfolio websites. Explore the designs, ideas and iterations, preserved as they were.">
+    <meta name="theme-color" content="#f2f0e9">
+    <title>Archive — Websites through the years</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23e45332'/%3E%3Cpath d='M16 46 28 16h8l12 30H37l-2-7H25l-2 7zm12-15h5l-2-8z' fill='%23f2f0e9'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#collection">Skip to archived sites</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="./" aria-label="Archive home"><span class="mark" aria-hidden="true">a.</span> The archive</a>
+        <a class="nav-link" href="#about">A little context <span aria-hidden="true">↗</span></a>
+      </header>
+      <main>
+        <section class="intro" aria-labelledby="intro-title">
+          <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A personal collection / {{RANGE}}</div>
+          <h1 id="intro-title">Archive<span class="title-dot">.</span><sup>{{COUNT}}</sup></h1>
+          <div class="intro-bottom">
+            <p>Old sites.<br>Still part of the story.</p>
+            <p class="intro-description">A home for the websites that came before.<br>Different designs, different ideas. All kept here<br class="desktop-break"> to look back on.</p>
+          </div>
+        </section>
+        <section id="collection" class="collection" aria-labelledby="collection-title">
+          <div class="section-heading">
+            <h2 id="collection-title">The collection <span>({{COUNT}})</span></h2>
+            <span class="eyebrow">Newest first <span aria-hidden="true">↓</span></span>
+          </div>
+          <div class="site-grid">
+{{CARDS}}
+          </div>
+        </section>
+        <section id="about" class="about" aria-labelledby="about-title">
+          <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> About this archive</div>
+          <div>
+            <h2 id="about-title">Every version<br>has its place.</h2>
+            <p>Websites change. This is a small record of mine: past portfolios, earlier ideas, and the steps between them. Each site is preserved as it was archived, quirks and all.</p>
+            <a class="text-link" href="#collection">Explore the collection <span aria-hidden="true">↑</span></a>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer"><a class="wordmark" href="./">The archive<span class="title-dot">.</span></a><p>A few things worth keeping.</p><a class="nav-link" href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+    </div>
+  </body>
+</html>

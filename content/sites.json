@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Personal Portfolio",
+    "version": "03",
+    "date": "2026-08",
+    "description": "The third iteration of my personal portfolio. A new chapter, preserved here.",
+    "url": "sites/personal-portfolio-v3/index.html",
+    "image": "images/2026-08-personal-portfolio-v3-1024x576.jpg",
+    "alt": "Portfolio homepage with a broadcast control room background and a Hey there introduction."
+  },
+  {
+    "title": "Personal Portfolio",
+    "version": "02",
+    "date": "2024-05",
+    "description": "A second take on the personal portfolio, one month after the first.",
+    "url": "sites/personal-portfolio-v2/index.html",
+    "image": "images/2024-05-personal-portfolio-v2-1024x576.png",
+    "alt": "Screenshot of the second personal portfolio homepage."
+  },
+  {
+    "title": "Personal Portfolio",
+    "version": "01",
+    "date": "2024-04",
+    "description": "The first version in this collection. The starting point for what came next.",
+    "url": "sites/personal-portfolio-v1/index.html",
+    "image": "images/2024-04-personal-portfolio-v1-1024x576.png",
+    "alt": "Screenshot of the first personal portfolio homepage."
+  }
+]
